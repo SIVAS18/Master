@@ -1,0 +1,14 @@
+public static void main(String arg[])
+	{
+		System.out.print("Enter theNumber:");
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		if(a>0)
+		{
+			System.out.println("Enter Number "+a+" is Positive");
+		}
+		else
+		{
+			System.out.println("Enter Number "+a+" is Negative");
+		}
+	}
